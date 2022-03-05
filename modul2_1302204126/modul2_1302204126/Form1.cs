@@ -73,11 +73,12 @@ namespace modul2_1302204126
         {
             count = 1;
             angka1 = int.Parse(textBox1.Text);
+            textBox1.Text = "";
         }
 
         private void btn0_Click(object sender, EventArgs e)
         {
-            textBox1.Text = "0";
+            textBox1.Text = textBox1.Text + 0;
 
         }
 
